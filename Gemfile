@@ -24,11 +24,8 @@ gem 'jquery-rails'
 
 
 gem 'thin'
+gem 'pg'
 
-group :development do
-  gem 'sqlite3'
-  gem 'therubyracer'
-end
 
 group :test do
   # Pretty printed test output
@@ -36,6 +33,5 @@ group :test do
 end
 
 group :production do
-  gem 'pg'
   gem 'therubyracer-heroku', '0.8.1.pre3' # you will need this too
 end
