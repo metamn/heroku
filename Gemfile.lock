@@ -103,7 +103,6 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-script
-  execjs
   jquery-rails
   pg
   rails (= 3.1.0.rc1)
